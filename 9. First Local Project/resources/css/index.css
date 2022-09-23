@@ -1,0 +1,21 @@
+.banner {
+    background-color: blue;
+    color: white;
+    margin-top: 75px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#small-image {
+    height: 100px;
+    width: 100px;
+}
+
+#nameText {
+    color: rebeccapurple;
+    font-size: 100px;
+}
+
+.bold {
+    font-weight: 900;
+}
