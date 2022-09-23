@@ -1,7 +1,24 @@
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
 .banner {
     background-color: blue;
     color: white;
-    margin-top: 75px;
+    margin-top: 50px;
     text-align: center;
     padding: 20px 0px;
 }
@@ -9,13 +26,38 @@
 #small-image {
     height: 100px;
     width: 100px;
+    filter: drop-shadow(5px 5px 5px green);
+}
+.body-section {
+    padding: 20px 50px;
 }
 
-#nameText {
+#name-text {
     color: rebeccapurple;
     font-size: 100px;
 }
 
+#feeds ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.avatar {
+    background-image: url('../images/babyStanding.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 20px;
+    margin: 10px 10px;
+}
+
 .bold {
     font-weight: 900;
+}
+
+a.blue {
+    color: blue;
 }
